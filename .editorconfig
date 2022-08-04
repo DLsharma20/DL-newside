@@ -2,12 +2,13 @@ root = true
 
 [*]
 # change to lf if your are using Linux/max
-end_of_line = lf
+end_of_line = crlf
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.ts]
+[*.ts, *.js, *.jsx]
 indent_style = space
+indent_size = 2
 
 [{*.json,*.md,*.yml}]
 indent_style = space
