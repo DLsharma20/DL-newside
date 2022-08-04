@@ -19,5 +19,10 @@ module.exports = {
     semi: ['error', 'always'],
     'react/react-in-jsx-scope': 'off',
     'linebreak-style': ['error', 'unix']
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 };
